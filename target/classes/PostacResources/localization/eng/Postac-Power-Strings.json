@@ -1,0 +1,109 @@
+{
+        "Postac:Tempest": {
+                "NAME": "Tempest",
+                "DESCRIPTIONS": [
+                        "Gain 1 Critical Strike, for every 7 Tempest."
+                ]
+        },
+        "Postac:Airborne": {
+                "NAME": "Airborne",
+                "DESCRIPTIONS": [
+                        "Gain additional effect when using cards with Final Blow."
+                ]
+        },
+        "Postac:TempestBlock": {
+                "NAME": "Eye Of The Cyclone",
+                "DESCRIPTIONS": [
+                        "Gain block, equal to stacks of this power, whenever you gain tempest."
+                ]
+        },
+        "Postac:DrainTheAirPower": {
+                "NAME": "Drain The Air",
+                "DESCRIPTIONS": [
+                        "Gain 1 Strength at the end of the turn, for every airborne you have."
+                ]
+        },
+        "Postac:FortifyPower": {
+                "NAME": "Fortify",
+                "DESCRIPTIONS": [
+                        "Gain 1 Dexterity, after playing ",
+                        " more cards."
+                ]
+        },
+        "Postac:SwiftAsTheWindPower": {
+                "NAME": "Swift As The Wind",
+                "DESCRIPTIONS": [
+                        "When you create card, create additional copy of last card created. You can create up to ",
+                        " cards this turn."
+                ]
+        },
+        "Postac:NextTurnPreMarkedPower": {
+                "NAME": "Mark Prepare",
+                "DESCRIPTIONS": [
+                        "Next turn the owner will take double damage."
+                ]
+        },
+        "Postac:MarkedPower": {
+                "NAME": "Mark",
+                "DESCRIPTIONS": [
+                        "The owner take double damage for  ",
+                        " turn."
+                ]
+        },
+        "Postac:FocusOnTheWind": {
+                "NAME": "Focus On The Wind",
+                "DESCRIPTIONS":[
+                        "Every strike you play, gives you 1 Tempest.",
+                        "Every strike or defend you play, gives you 1 Tempest."
+                ]
+        },
+        "Postac:FreshBreezePower": {
+                "NAME": "Fresh Breeze",
+                "DESCRIPTIONS":[
+                        "When you create a card, gain 1 energy, up to ",
+                        " time."
+                ]
+        },
+        "Postac:FatedPower": {
+                "NAME": "Fated",
+                "DESCRIPTIONS": [
+                        "Whenever you activate Flanked effect, lower cost of random card in hand by 1. Up to ",
+                        " times this turn."
+                ]
+        },
+        "Postac:PowerSurgePower": {
+                "NAME": "Power Surge",
+                "DESCRIPTIONS": [
+                        "Lose ",
+                        " Strength whenever you play Attack card."
+                ]
+        },
+        "Postac:RetainCardsForTurn": {
+                "NAME": "Retain",
+                "DESCRIPTIONS": [
+                        "Retain up to ",
+                        " cards in your hand."
+                ]
+        },
+
+        "Postac:Destruction": {
+                "NAME": "Destruction",
+                "DESCRIPTIONS": [
+                        "For every *Cut played, increase *Cut damage by 1."
+                ]
+        },
+        "Postac:DestructionPower": {
+                "NAME": "Destruction",
+                "DESCRIPTIONS": [
+                        "Gain ",
+                        " damage for each cut you exhaust. Your Cuts deal ",
+                        " more damage."
+                ]
+        },
+        "Postac:Flow": {
+                "NAME": "Flow",
+                "DESCRIPTIONS": [
+                        "Gain 1 Buffer, for every 10 Flow."
+                ]
+        }
+}

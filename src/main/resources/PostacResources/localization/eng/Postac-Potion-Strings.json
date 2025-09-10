@@ -1,0 +1,34 @@
+{
+
+        "Postac:PlaceholderPotion": {
+        "NAME": "Placeholder Potion",
+        "DESCRIPTIONS": ["Gain ", " At the end of your turn, lose ", " Strength."]
+},
+        "Postac:TempestPotion": {
+                "NAME": "Tempest Potion",
+                "DESCRIPTIONS": ["Gain ", " Tempest."]
+        },
+        "Postac:ImpatiencePotion": {
+                "NAME": "Impatience Potion",
+                "DESCRIPTIONS": ["Gain ", " Impatience."]
+        },
+        "Postac:AirbornePotion": {
+                "NAME": "Airborne Potion",
+                "DESCRIPTIONS": ["Apply ", " Airborne. Airborne doesn't wear off this turn."]
+        },
+        "Postac:PotionOfBalance": {
+                "NAME": "Potion Of Balance",
+                "DESCRIPTIONS": ["Set the order of cards in your hand."]
+        },
+        "Postac:CutPotion": {
+                "NAME": "Cut Potion",
+                "DESCRIPTIONS": ["Add .", " Cuts to your hand."]
+        },
+        "Postac:BelowPotion": {
+                "NAME": "Below Potion",
+                "DESCRIPTIONS":  ["Choose #b1 of #b3 cards with below. It costs #b0 this turn.",
+                " Gain #b",
+                " copy of it.",
+                " copies of it."]
+        }
+}

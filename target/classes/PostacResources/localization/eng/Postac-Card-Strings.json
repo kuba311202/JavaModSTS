@@ -1,0 +1,343 @@
+{
+  "Postac:AirborneExposure": {
+    "NAME": "Airborne Exposure",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Airborne. NL Airborne doesn't wear off this turn."
+  },
+  "Postac:AllPlaned": {
+    "NAME": "All Planed",
+    "DESCRIPTION": "Deal !M! damage next turn."
+  },
+  "Postac:Ambush": {
+    "NAME": "Ambush",
+    "DESCRIPTION": "Deal !M! damage next turn. NL Add !Postac:SecondMagic! *Cuts to your hand."
+  },
+  "Postac:Barrage": {
+    "NAME": "Barrage",
+    "DESCRIPTION": "Gain !B! block. NL Enemy is Above: Retain 2 cards. NL Enemy is Below: Retain 1 card."
+  },
+  "Postac:Bruised": {
+    "NAME": "Bruised",
+    "DESCRIPTION": "From now on, below effect activates, when enemy has 50% health or less.",
+    "UPGRADE_DESCRIPTION": "Innate. NL From now on, below effect activates, when enemy has 50% health or less."
+  },
+  "Postac:Calm": {
+    "NAME": "Calm",
+    "DESCRIPTION": "Gain 2 *Strength after !M! turns. NL Gain !Postac:SecondMagic! Weak."
+  },
+  "Postac:Carnage": {
+    "NAME": "Carnage",
+    "DESCRIPTION": "Deal !D! damage. NL Final Blow 4: NL I cost 1."
+  },
+  "Postac:CatchABreath": {
+    "NAME": "Catch A Breath",
+    "DESCRIPTION": "Gain !B! block. NL After 2 turns gain 1 Dexterity."
+  },
+  "Postac:CircleStrike": {
+    "NAME": "Circle Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Flanked: Deal !D! damage to all enemies."
+  },
+  "Postac:ClashWithReality": {
+    "NAME": "Clash With Reality",
+    "DESCRIPTION": "Whenever you apply Airborne to enemy, deal !M! damage to him."
+  },
+  "Postac:ComeBack": {
+    "NAME": "Come Back",
+    "DESCRIPTION": "Deal !D! damage, and put card from discard pile, to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Deal !D! damage, and put card from discard pile, to your hand. NL Exhaust."
+  },
+  "Postac:ConsumeTheWind": {
+    "NAME": "Consume The Wind",
+    "DESCRIPTION": "Deal !D! damage. NL Final Blow 2: NL Apply !M! Vulnerable."
+  },
+  "Postac:CountOnYourself": {
+    "NAME": "Count On Yourself",
+    "DESCRIPTION": "Gain !B! block for every Airborne stack you have."
+  },
+  "Postac:CounterStrike": {
+    "NAME": "Counter Strike",
+    "DESCRIPTION": "Gain !B! block. NL Flanked: Deal !D! damage to all enemies."
+  },
+  "Postac:CriticalStrike": {
+    "NAME": "Critical Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Flanked: Deal double damage."
+  },
+  "Postac:CutOpen": {
+    "NAME": "Cut Open",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy is Above: Gain !Postac:SecondMagic! Flow. NL Enemy is Below: Gain !M! Tempest. "
+  },
+  "Postac:DeadlyStrike": {
+    "NAME": "Deadly Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy is Above: Gain 2 Airborne. NL Enemy is Below: Upgrade !M! card in your hand for this combat.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Enemy is Above: Gain 2 Airborne. NL Enemy is Below: Upgrade !M! cards in your hand for this combat."
+  },
+  "Postac:DeathIsLikeTheWind": {
+    "NAME": "Death Is Like The Wind",
+    "DESCRIPTION": "Deal !D! damage. NL Add *Always *By *My *Side, to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add upgraded *Always *By *My *Side, to your hand."
+  },
+  "Postac:DeclineTheWind": {
+    "NAME": "Decline The Wind",
+    "DESCRIPTION": "Retain 2 cards."
+  },
+  "Postac:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! block."
+  },
+  "Postac:Delayed": {
+    "NAME": "Delayed",
+    "DESCRIPTION": "Deal !D! damage 4 times. NL Final Blow 5: NL I cost 1 this turn."
+  },
+  "Postac:Destruction": {
+    "NAME": "Destruction",
+    "DESCRIPTION": "For every *Cut exhausted, increase *Cut damage by 1.",
+    "UPGRADE_DESCRIPTION": "Innate. NL For every *Cut exhausted, increase *Cut damage by 1."
+  },
+  "Postac:DoubleProtection": {
+    "NAME": "Double Protection",
+    "DESCRIPTION": "Gain !B! block. NL Flanked: Gain !B! block."
+  },
+  "Postac:DoubleUp": {
+    "NAME": "Double Up",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! cards next turn."
+  },
+  "Postac:DrainTheAir": {
+    "NAME": "Drain The Air",
+    "DESCRIPTION": "Gain 1 Strength at the end of the turn, for every Airborne you have.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Gain 1 Strength at the end of the turn, for every Airborne you have."
+  },
+  "Postac:End": {
+    "NAME": "End",
+    "DESCRIPTION": "Gain !B! block. NL Enemy is Above: Gain !B! block. NL Enemy is Below: Deal damage equal to your block, then remove your block."
+  },
+  "Postac:EyeOfTheCyclone": {
+    "NAME": "Eye Of The Cyclone",
+    "DESCRIPTION": "Gain !B! block, whenever you gain Tempest."
+  },
+  "Postac:FalterThem": {
+    "NAME": "Falter Them",
+    "DESCRIPTION": "Deal !D! damage. NL Remove enemy's block. NL Flanked: Apply !M! Weak."
+  },
+  "Postac:Fated": {
+    "NAME": "Fated",
+    "DESCRIPTION": "Ethereal. NL Whenever you activate Flanked effect, lower cost of random card in your hand by 1.",
+    "UPGRADE_DESCRIPTION": "Whenever you activate Flanked effect, lower cost of random card in your hand by 1."
+  },
+  "Postac:Finish": {
+    "NAME": "Finish",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle 2 *Slimed into your draw pile. NL Final Blow 2: Don't shuffle *Slimed."
+  },
+  "Postac:FirstCut": {
+    "NAME": "First Cut",
+    "DESCRIPTION": "Deal !D! damage. NL Add *Second *Cut to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add upgraded *Second *Cut to your hand."
+  },
+  "Postac:Float": {
+    "NAME": "Float",
+    "DESCRIPTION": "Enemies no longer lose Airborne stacks on start of the turn.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Enemies no longer lose Airborne stacks on start of the turn."
+  },
+  "Postac:FocusOnTheWind": {
+    "NAME": "Focus On The Wind",
+    "DESCRIPTION": "Gain 1 tempest, whenever you play strike.",
+    "UPGRADE_DESCRIPTION": "Gain 1 tempest, whenever you play strike or defend."
+  },
+  "Postac:Fortify": {
+    "NAME": "Fortify",
+    "DESCRIPTION": "After playing !M! cards this turn, gain 1 Dexterity.",
+    "UPGRADE_DESCRIPTION": "After playing !M! cards this turn, gain 1 Dexterity. NL Add !Postac:SecondMagic! *Cut to your hand."
+  },
+  "Postac:FreshBreeze": {
+    "NAME": "Fresh Breeze",
+    "DESCRIPTION": "Once a turn, when you play a creator card, gain 1 energy.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Once a turn, when you play a creator card, gain 1 energy."
+  },
+  "Postac:GatheringStorm": {
+    "NAME": "Gathering Storm",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain 2 Airborne for every enemy hit."
+  },
+  "Postac:GoodDrink": {
+    "NAME": "Good Drink",
+    "DESCRIPTION": "Gain !B! block. NL Reduce cost of !M! cards in your hand by 1 this combat."
+  },
+  "Postac:HastenTheWind": {
+    "NAME": "Hasten The Wind",
+    "DESCRIPTION": "Draw !M! cards. NL Gain 1 Blur."
+  },
+  "Postac:KillingSpree": {
+    "NAME": "Killing Spree",
+    "DESCRIPTION": "Deal !D! damage. NL Final Blow 3: Heal half of damage dealt. NL Exhaust."
+  },
+  "Postac:LastBreath": {
+    "NAME": "Last Breath",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Final Blow 4: Apply !M! Poison to ALL enemies. NL Exhaust."
+  },
+  "Postac:Leap": {
+    "NAME": "Leap",
+    "DESCRIPTION": "Gain !B! block. NL Gain 2 Airborne."
+  },
+  "Postac:MakeItQuick": {
+    "NAME": "Make It Quick",
+    "DESCRIPTION": "Deal !D! damage. NL Discard your hand. NL Draw !M! cards. NL Flanked: Set cost of drawn card to 0 this turn. NL Exhaust."
+  },
+  "Postac:Marked": {
+    "NAME": "Marked",
+    "DESCRIPTION": "Double damage taken by enemy next turn."
+  },
+  "Postac:MinorBlade": {
+    "NAME": "Minor Blade",
+    "DESCRIPTION": "Apply !M! weak. NL Add !Postac:SecondMagic! *Cuts to your hand"
+  },
+  "Postac:NextTurn": {
+    "NAME": "Next Turn",
+    "DESCRIPTION": "Increase all powers, that will work for next turn by 1."
+  },
+  "Postac:Overwhelm": {
+    "NAME": "Overwhelm",
+    "DESCRIPTION": "Gain !M! Impatience. NL When Next Turn Damage, will deal excess damage, it deals redundant damage to random enemy.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Gain !M! Impatience. NL When Next Turn Damage, will deal excess damage, it deals redundant damage to random enemy."
+  },
+  "Postac:Patience": {
+    "NAME": "Patience",
+    "DESCRIPTION": "Gain !B! block. NL Enemy is Above: Gain 2 Dexterity and Strength. NL Enemy is Below: Deal !D! Damage"
+  },
+  "Postac:Peace": {
+    "NAME": "Peace",
+    "DESCRIPTION": "Gain !B! block. NL Gain !M! Tempest."
+  },
+  "Postac:PowerSurge": {
+    "NAME": "Power Surge",
+    "DESCRIPTION": "Deal !D! damage. NL Flanked: Gain !M! Strength, lose 1 Strength whenever you play Attack card. NL Exhaust."
+  },
+  "Postac:PowerSpike": {
+    "NAME": "Power Spike",
+    "DESCRIPTION": "Deal !M! damage next turn. NL Gain !Postac:SecondMagic! Impatience in 2 turns."
+  },
+  "Postac:Preparation": {
+    "NAME": "Preparation",
+    "DESCRIPTION": "Gain !B! block next turn. NL Gain !M! Flow"
+  },
+  "Postac:QuickSlash": {
+    "NAME": "Quick Slash",
+    "DESCRIPTION": "Deal !D! damage. NL Repeat for every Tempest you have."
+  },
+  "Postac:Recall": {
+    "NAME": "Recall",
+    "DESCRIPTION": "Deal !D! damage. NL Flanked: Gain !M! Airborne."
+  },
+  "Postac:Reflex": {
+    "NAME": "Reflex",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy is Above: Draw 1 and reduce it's cost by 1. NL Enemy is Below: Draw !M! cards, you cannot draw more cards this turn."
+  },
+  "Postac:RegainStrength": {
+    "NAME": "Regain Strength",
+    "DESCRIPTION": "Gain !B! block. Costs 1 less this turn, for every created card played this turn."
+  },
+  "Postac:Reinforcements": {
+    "NAME": "Reinforcements",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 1 energy next turn."
+  },
+  "Postac:Renewal": {
+    "NAME": "Renewal",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy is Above: Gain 1 energy and draw 1 card. NL Enemy is Below: Gain 2 energy."
+  },
+  "Postac:Repeat": {
+    "NAME": "Repeat",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Tempest. NL Flanked: Copy me, and shuffle hand."
+  },
+  "Postac:Repurpose": {
+    "NAME": "Repurpose",
+    "DESCRIPTION": "Set order of cards in your hand.",
+    "UPGRADE_DESCRIPTION": "Set order of cards in your hand. NL Draw 1 card."
+  },
+  "Postac:ResistMagic": {
+    "NAME": "Resist Magic",
+    "DESCRIPTION": "Deal !D! damage. NL Above: Gain !M! Artifact. NL Below: Dispel 1. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Above: Gain !M! Artifacts. NL Below: Dispel 1. NL Exhaust."
+  },
+  "Postac:Scrape": {
+    "NAME": "Scrape",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy is Above: Apply !M! Vulnerable. NL Enemy is Below: Apply !M! Weak."
+  },
+  "Postac:SetUpPace": {
+    "NAME": "Set Up Pace",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Tempest."
+  },
+  "Postac:SideBlock": {
+    "NAME": "Side Block",
+    "DESCRIPTION": "Gain !B! block. NL Flanked: Apply !M! Weak to enemy."
+  },
+  "Postac:Soften": {
+    "NAME": "Soften",
+    "DESCRIPTION": "Deal !D! damage, NL Apply 1 Vulnerable and gain !M! Tempest."
+  },
+  "Postac:SteelTempest": {
+    "NAME": "Steel Tempest",
+    "DESCRIPTION": "Gain 1 Critical Strike. NL Final Blow 2: I cost 0. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain 1 Critical Strike. NL Final Blow 2: I cost 0."
+  },
+  "Postac:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "Postac:SweepingBlade": {
+    "NAME": "Sweeping Blade",
+    "DESCRIPTION": "Gain !M! Flow. NL Gain !Postac:SecondMagic! Tempest."
+  },
+  "Postac:SwiftAsTheWind": {
+    "NAME": "Swift As The Wind",
+    "DESCRIPTION": "Once a turn, when you create cards, create copy of last card created.",
+    "UPGRADE_DESCRIPTION": "Twice a turn, when you create cards, create copy of last card created."
+  },
+  "Postac:TempestOnslaught": {
+    "NAME": "Tempest Onslaught",
+    "DESCRIPTION": "Double your Tempest. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Double your Tempest. NL Draw 1 card."
+  },
+  "Postac:Thorns": {
+    "NAME": "Thorns",
+    "DESCRIPTION": "Gain !B! block. Add !M! *Cut to your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !B! block. Add !M! *Cuts to your hand."
+  },
+  "Postac:ThrowAway": {
+    "NAME": "Throw Away",
+    "DESCRIPTION": "*Discard 2 cards. NL Add 3 *Cuts to your hand.",
+    "UPGRADE_DESCRIPTION": "*Discard 2 cards. NL Add 3 Upgraded *Cuts to your hand."
+  },
+  "Postac:Unbreakable": {
+    "NAME": "Unbreakable",
+    "DESCRIPTION": "Gain !B! block. NL Gain half of block next turn."
+  },
+  "Postac:WayOfTheWanderer": {
+    "NAME": "Way Of The Wanderer",
+    "DESCRIPTION": "Gain !B! block next turn, if the enemy doesn't intend to attack. Otherwise gain half of the block."
+  },
+  "Postac:WindFlurry": {
+    "NAME": "Wind Flurry",
+    "DESCRIPTION": "Gain !B! block X times. NL Gain !M! Tempest X Times.",
+    "UPGRADE_DESCRIPTION": "Gain !B! block X+1 times. NL Gain !M! Tempest X+1 Times."
+  },
+  "Postac:SecondCut": {
+    "NAME": "Second Cut",
+    "DESCRIPTION": "Deal !D! damage. NL Add *Third *Cut to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add upgraded *Third *Cut to your hand. NL Exhaust."
+  },
+  "Postac:ThirdCut": {
+    "NAME": "Third Cut",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Airborne. NL Exhaust."
+  },
+  "Postac:Dodge": {
+    "NAME": "Dodge",
+    "DESCRIPTION": "Gain !B! block.",
+    "UPGRADE_DESCRIPTION": "Gain !B! block. NL Draw 1 card."
+  },
+  "Postac:AlwaysByMySide": {
+    "NAME": "Always By My Side",
+    "DESCRIPTION": "Gain !B! block next turn. NL Exhaust."
+  },
+  "Postac:Cut": {
+    "NAME": "Cut",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  }
+}
+
+

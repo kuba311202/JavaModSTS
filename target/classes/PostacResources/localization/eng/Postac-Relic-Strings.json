@@ -1,0 +1,79 @@
+{
+  "Postac:ImmortalShieldBow": {
+    "NAME": "Immortal ShieldBow",
+    "FLAVOR": "Death is like the wind, always by my side.",
+    "DESCRIPTIONS": [
+      "Once a fight, when you lose HP, gain 7 block and 7 block next turn."
+    ]
+  },
+  "Postac:Zephyr": {
+    "NAME": "Zephyr",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "At the beginning of combat, apply 1 airborne to every enemy."
+    ]
+  },
+  "Postac:DeathsDance": {
+    "NAME": "Death's Dance",
+    "FLAVOR": "Reminder of long and painful death.",
+    "DESCRIPTIONS": [
+      "Once a turn, when you use tempest, gain 1 Dexterity."
+    ]
+  },
+  "Postac:RavenousHydra": {
+    "NAME": "Ravenous Hydra",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "Whenever you play attack card, deal 2 damage to ALL enemies."
+    ]
+  },
+  "Postac:StatikkShiv": {
+    "NAME": "Statikk Shiv",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "When you use cut, gain 1 temporary strength."
+    ]
+  },
+  "Postac:WitsEnd": {
+    "NAME": "Wit's End",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "For first 5 cards played every round, gain 1 block, if you play 5 cards, gain 5 block next turn"
+    ]
+  },
+  "Postac:SilvermereDawn": {
+    "NAME": "Silvermere Dawn",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "Once per combat, when you use card with smash, heal 4 HP."
+    ]
+  },
+  "Postac:InfinityEdge": {
+    "NAME": "Infinity Edge",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "Once a combat, when you activate flanked card, gain 1 energy."
+    ]
+  },
+  "Postac:SerpentsFang": {
+    "NAME": "Serpent's Fang",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "At the start of combat gain 1 Impatience"
+    ]
+  },
+  "Postac:GuinsoosRageBlade": {
+    "NAME": "Guinsoos Rageblade",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "When you have 15 Damage Next Turn at the end of your turn, gain 2 impatience."
+    ]
+  },
+  "Postac:Bloodthirster": {
+    "NAME": "Bloodthirster",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "Once a combat, when you activate below effect, gain 1 energy."
+    ]
+  }
+}

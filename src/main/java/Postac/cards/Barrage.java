@@ -1,0 +1,89 @@
+package Postac.cards;
+
+
+import Postac.powers.RetainCardsForTurn;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import Postac.Postac;
+import Postac.characters.TheUnforgiven;
+
+import java.util.Iterator;
+
+import static Postac.Postac.makeCardPath;
+
+
+public class Barrage extends AbstractGreyCard {
+
+
+    public static final String ID = Postac.makeID(Barrage.class.getSimpleName());
+    public static final String IMG = makeCardPath("Barrage.png");
+    private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
+    public static final String NAME = cardStrings.NAME;
+    public static final String DESCRIPTION = cardStrings.DESCRIPTION;
+
+
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardTarget TARGET = CardTarget.SELF_AND_ENEMY;
+    private static final CardType TYPE = CardType.SKILL;
+    public static final CardColor COLOR = TheUnforgiven.Enums.COLOR_DARK_BLUE;
+
+    private static final int COST = 1;
+
+    private static final int BLOCK = 8;
+    private static final int UPGRADE_BLOCK = 4;
+    private static final int MAGIC_NUMBER = 1;
+
+
+    public Barrage() {
+        super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
+        baseBlock = BLOCK;
+        baseMagicNumber = MAGIC_NUMBER;
+        tags.add(Postac.BELOW);
+    }
+
+    public Barrage(String id, String img, String name, int cost, String description, CardType type, CardColor color, CardRarity rarity, CardTarget target) {
+        super(id, img, cost, type, color, rarity, target);
+    }
+
+    public void triggerOnGlowCheck() {
+        this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        Iterator var1 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
+        while (var1.hasNext()) {
+            AbstractMonster m = (AbstractMonster) var1.next();
+            int currHp = m.currentHealth;
+            if (!m.isDeadOrEscaped() && currHp <= Math.ceil(m.maxHealth * 0.5)) {
+                this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+                break;
+            }
+        }
+    }
+
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        this.addToTop(new GainBlockAction(p,p,block));
+        int currHp = m.currentHealth;
+        if(currHp <= Math.ceil(m.maxHealth*0.5)) {
+            this.addToBot(new ApplyPowerAction(p, p, new RetainCardsForTurn(p,p, MAGIC_NUMBER)));
+            }
+        else if(currHp > Math.ceil(m.maxHealth*0.5)){
+            this.addToBot(new ApplyPowerAction(p, p, new RetainCardsForTurn(p,p, 2)));
+            }
+        }
+
+
+
+    @Override
+    public void upgrade() {
+        if (!upgraded) {
+            upgradeName();
+            upgradeBlock(UPGRADE_BLOCK);
+            initializeDescription();
+        }
+    }
+}
+

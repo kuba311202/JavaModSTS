@@ -1,0 +1,67 @@
+[
+  {
+    "PROPER_NAME": "Flanked",
+    "NAMES": [
+      "Flanked",
+      "flanked",
+      "Flanked:"
+    ],
+    "DESCRIPTION": "When card is first hard left or hard right in your hand."
+  },
+  {
+    "PROPER_NAME": "Tempest",
+    "NAMES": [
+      "Tempest",
+      "tempest"
+    ],
+    "DESCRIPTION": "Gain 1 Critical Strike, when you have 7 Tempest."
+  },
+  {
+    "PROPER_NAME": "Airborne",
+    "NAMES": [
+      "Airborne",
+      "airborne"
+    ],
+    "DESCRIPTION": "Gain additional effect when using cards with Final Blow."
+  },
+  {
+    "PROPER_NAME": "Final Blow",
+    "NAMES": [
+      "Final Blow",
+      "final blow"
+    ],
+    "DESCRIPTION": "Requires x Airborne to gain additional effects."
+  },
+  {
+    "PROPER_NAME": "Below",
+    "NAMES": [
+      "Below",
+      "below"
+    ],
+    "DESCRIPTION": "When enemy has 50% or less, of his max health."
+  },
+  {
+    "PROPER_NAME": "Creator",
+    "NAMES": [
+      "creator",
+      "Creator"
+    ],
+    "DESCRIPTION": "Card that creates other cards after playing it."
+  },
+  {
+    "PROPER_NAME": "Above",
+    "NAMES": [
+      "Above",
+      "above"
+    ],
+    "DESCRIPTION": "When enemy has more than 50%, of his max health."
+  },
+  {
+    "PROPER_NAME": "Flow",
+    "NAMES": [
+      "Flow",
+      "flow"
+    ],
+    "DESCRIPTION": "Gain 1 Buffer, for every 10 Flow."
+  }
+]
